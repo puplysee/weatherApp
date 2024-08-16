@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+
+code {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+  margin-top: 20em;
+  margin-left: 20em;
+  
+}
+h1{
+  font-size: 40px;
+  color:midnightblue;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+  input{
+    width:23rem;
+    height:40px;
+    font-size: 20px;
+    border-radius: 3px;
+  }
+  #search{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  button{
+    width: 5rem;
+    margin-left:5px;
+    height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(23, 52, 116);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+ 
