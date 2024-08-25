@@ -1,19 +1,21 @@
 import React, { useState } from 'react'
 import Search from './components/Search';
-import Cards from './components/cards/Cards.jsx'
+import Cards from './components/cards/Cards.jsx';
+import "./App.css"
+import Navbar from './components/Navbar.js';
 
 
-
-// use positionı enlem ve boylam degerlerını  almak için indirdik
 
 
 function App() {
   const[info,setInfo] = useState([]);
 
   return (
- <>
- <Search info={info} setInfo={setInfo}/>
+ <> 
+ <Navbar></Navbar>
+ <Search setInfo={setInfo}/>
  <Cards info={info}/>
+
  </>
   )
 }
